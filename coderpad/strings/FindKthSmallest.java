@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 public class FindKthSmallest {
     public static void main(String[] args) {
-        int[] array = {12, 3, 5, 7, 19, 4, 8, 1};
+        int[] array = {12, 3, 5, 7, 19, 4, 8, 3};
         int k = 3;
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
