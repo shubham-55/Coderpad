@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class AverageScore {
     public static void main(String[] args) {
-        String[][] reportCard={{"Rohit", "85"},{"Rahul", "80"},{"Amit","85"},{"Rohit", "90"}};
+        String[][] reportCard={{"Rohit", "85"},{"Rahul", "80"},{"Amit","89"},{"Rohit", "90"}};
         findMaxAverage(reportCard);
     }
     public static void findMaxAverage(String[][] reportCard){
